@@ -1,0 +1,53 @@
+h1,h2{
+    color:rgb(51, 51, 113);
+}
+
+.first-td::before{
+    content:'🤝🏽'
+}
+.sec-td::before{
+    content:'📞'
+}
+.third-td::before{
+    content:'📍'
+}
+.four-td::before{
+    content:'💈'
+}
+
+.para::before{
+    content:'➡️'
+}
+span{
+    color:rgb(56, 56, 171);
+    
+}
+div::before{
+    content:'->: '
+}
+.bullet::before{
+    content:'⁃'
+}
+.date::before{
+    content:'📅'
+}
+.place::before{
+    content:'📍'
+}
+.hbull li::before{
+    
+    content: ':->';
+    
+}
+
+.str{
+    margin-top: 0px;
+    border-bottom: 2px solid orangered;
+    
+}
+.input {
+    border-radius: 7px 7px 7px 7px;
+    height: 30px;
+    border-color: gray;
+}
+
